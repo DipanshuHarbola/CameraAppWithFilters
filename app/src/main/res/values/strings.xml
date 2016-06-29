@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Custom Camera</string>
+    <string name="none">None</string>
+    <string name="aqua">Aqua</string>
+    <string name="blackboard">Blackboard</string>
+    <string name="mono">Mono</string>
+    <string name="negative">Negative</string>
+    <string name="posterize">Posterize</string>
+    <string name="sepia">Sepia</string>
+    <string name="solarize">Solarize</string>
+    <string name="whiteboard">Whiteboard</string>
+
+</resources>
