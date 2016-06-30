@@ -184,4 +184,19 @@ public class CamActivity extends AppCompatActivity implements View.OnClickListen
 
         }
     }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        mCamera.stopPreview();
+        mCamera.release();
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        mCamera.stopPreview();
+        mCamera.release();
+        mCamera = null;
+    }
 }
